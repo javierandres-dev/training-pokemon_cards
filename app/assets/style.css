@@ -1,0 +1,134 @@
+:root {
+  --blue: #3761a8;
+  --yellow: #feca1b;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  color: gray;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  font-style: italic;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--yellow);
+}
+a:active {
+  text-decoration: underline;
+}
+main {
+  max-width: 420px;
+  margin: auto;
+}
+.header {
+  text-align: right;
+  font-size: 0.9rem;
+  margin: 1rem 0.8rem;
+}
+.header span {
+  display: block;
+  margin-bottom: -0.8rem;
+}
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pagination button {
+  margin: 1rem;
+}
+.pokemons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokemon {
+  font-family: "Yeon Sung", cursive;
+  width: 90%;
+  border: thin solid var(--blue);
+  border-radius: 1rem 1rem 0.4rem 0.4rem;
+  margin: 0.5rem auto;
+}
+.pokemon figure {
+  width: 80%;
+  margin: 0 auto;
+}
+.pokemon figure figcaption {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--blue);
+}
+.pokemon ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  background-color: var(--blue);
+  color: white;
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  border-radius: 0 0 0.4rem 0.4rem;
+  text-transform: uppercase;
+}
+.pokemon ul li span {
+  font-weight: lighter;
+  color: var(--yellow);
+  text-transform: capitalize;
+}
+.pokemon ul .id {
+  text-align: end;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: var(--yellow);
+}
+.footer {
+  margin: 1rem;
+}
+@media screen and (min-width: 768px) {
+  main {
+    max-width: 720px;
+  }
+  .pokemons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .pokemon {
+    width: 40%;
+  }
+  .pokemon figure {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 960;
+  }
+  .pokemons {
+    justify-content: space-between;
+  }
+  .pokemon {
+    width: 30%;
+  }
+  .pokemon figure {
+    width: 100%;
+  }
+}
