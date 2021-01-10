@@ -7,7 +7,7 @@ export default function Footer() {
   <a href="https://pokeapi.co/"
       target="_blank"
       rel="noopener noreferrer">API</a>&nbsp;&nbsp;
-  <a href="https://github.com/javierandresgp/"
+  <a href="https://www.javierandresgp.com"
       target="_blank"
       rel="noopener noreferrer">Developer</a>
 </nav>
