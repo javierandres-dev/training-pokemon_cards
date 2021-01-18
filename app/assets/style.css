@@ -1,4 +1,5 @@
 :root {
+  --lightblue: #05a6f1;
   --blue: #3761a8;
   --yellow: #feca1b;
 }
@@ -38,14 +39,24 @@ main {
   max-width: 420px;
   margin: auto;
 }
-.header {
-  text-align: right;
-  font-size: 0.9rem;
-  margin: 1rem 0.8rem;
+.dev {
+  position: sticky;
+  top: 0;
+  background-color: inherit;
+  color: inherit;
+  padding: 1rem;
 }
-.header span {
-  display: block;
-  margin-bottom: -0.8rem;
+.dev h1 {
+  text-align: center;
+}
+.dev p {
+  text-align: right;
+}
+.dev p span {
+  font-size: inherit;
+}
+.dev a:link {
+  color: var(--lightblue);
 }
 .pagination {
   width: 100%;
@@ -99,10 +110,11 @@ main {
   font-weight: lighter;
   color: var(--yellow);
 }
-.footer {
-  margin: 1rem;
-}
 @media screen and (min-width: 768px) {
+  .dev {
+    display: flex;
+    justify-content: space-between;
+  }
   main {
     max-width: 720px;
   }
