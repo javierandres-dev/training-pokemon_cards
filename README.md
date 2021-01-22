@@ -12,4 +12,4 @@ How does it look? Take a look at [Pokémon cards](https://javierandresgp.github.
 * [PokéApi API](https://pokeapi.co/)
 
 ## Software engineer
-[Javier Andrés GP](https://www.javierandresgp.com)
+[Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
