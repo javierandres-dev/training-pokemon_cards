@@ -1,5 +1,5 @@
+"use strict";
 import showPokemons from "./showPokemons.js";
-// show buttons to print the different results on user interface
 export default function showPagination(next, previous) {
   const $pagination = document.querySelector("nav");
   while ($pagination.firstChild) {

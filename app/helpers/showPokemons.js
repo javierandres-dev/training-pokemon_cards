@@ -1,7 +1,7 @@
+"use strict";
 import queryApi from "../helpers/rest-api.js";
 import showPagination from "./showPagination.js";
 import Cards from "../components/Cards.js";
-// show results on user interface
 export default async function showPokemons(
   page = "https://pokeapi.co/api/v2/pokemon/"
 ) {
