@@ -1,5 +1,6 @@
 "use strict";
 import showPokemons from "./showPokemons.js";
+// show pagination buttons according to API response
 export default function showPagination(next, previous) {
   const $pagination = document.querySelector("nav");
   while ($pagination.firstChild) {

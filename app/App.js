@@ -5,6 +5,7 @@ import Nav from "./components/Nav.js";
 import Main from "./components/Main.js";
 import Footer from "./components/Footer.js";
 import Router from "./components/Router.js";
+// call start components and router
 export function App() {
   const $body = document.querySelector("body");
   $body.innerHTML = null;

@@ -1,4 +1,5 @@
 "use strict";
+// make a query to the API
 export default async function queryApi(url) {
   try {
     const resp = await fetch(url);

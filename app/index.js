@@ -1,3 +1,4 @@
 "use strict";
 import { App } from "./App.js";
-window.onload = () => App();
+// when the document tree already loaded ...
+document.addEventListener("DOMContentLoaded", App);
